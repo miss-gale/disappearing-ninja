@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" type="text/css" href="DisappearingNinja.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('img').click(function(){
+        $(this).fadeOut();
+      })
+      $('button').click(function(){
+        $('img').show();
+      })
+    })
+    </script>
+  </head>
+  <body>
+    <h1>jQuery Assignment: Disappearing Ninja</h1>
+    <p>Create a simple HTML page with 8 images of equal width and height (you can use any image you like). When a particular image is clicked, have that image disappear. Also, include a button on the bottom of the page called 'Restore'. When the button is clicked, all images will appear.</p>
+    <hr></hr>
+    <div class="ninjaMain">
+      <img class="one" src="ninja.png" alt="Image of a ninja">
+      <img class="two" src="ninja.png" alt="Image of a ninja">
+      <img class="three" src="ninja.png" alt="Image of a ninja">
+      <img class="four" src="ninja.png" alt="Image of a ninja">
+      <img class="five" src="ninja.png" alt="Image of a ninja">
+      <img class="six" src="ninja.png" alt="Image of a ninja">
+      <img class="seven" src="ninja.png" alt="Image of a ninja">
+      <img class="eight" src="ninja.png" alt="Image of a ninja">
+    </div>
+    <button>Restore</button>
+  </body>
+</html>

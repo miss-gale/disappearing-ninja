@@ -1,0 +1,81 @@
+*{
+  padding: 0px;
+  font-family: "Calibri", sans-serif;
+  color: white;
+}
+
+body{
+  margin-left: 20px;
+  width: 900px;
+  background-color: #00134d;
+}
+
+img{
+  width: 200px;
+  margin: 10px;
+}
+
+button{
+  font-size: 110%;
+  background-color: gold;
+  color: black;
+  border: solid, 3px, darkgrey;
+  padding: 5px 10px;
+  margin: 10px;
+}
+
+.ninjaMain{
+  width: 890px;
+  height: 445px;
+  background-color: black;
+}
+
+.one{
+  background-color: white;
+}
+
+.two{
+  background-color: blue;
+  position: fixed;
+  left: 240px;
+}
+
+.three{
+  background-color: gold;
+  position: fixed;
+  left: 460px;
+}
+
+.four{
+  background-color: green;
+  position: fixed;
+  left: 685px;
+}
+
+.five{
+  background-color: purple;
+  position: fixed;
+  top: 380px;
+  left: 20px;
+}
+
+.six{
+  background-color: silver;
+  position: fixed;
+  top: 380px;
+  left: 240px;
+}
+
+.seven{
+  background-color: red;
+  position: fixed;
+  top: 380px;
+  left: 460px;
+}
+
+.eight{
+  background-color: lightblue;
+  position: fixed;
+  top: 380px;
+  left: 685px;
+}
